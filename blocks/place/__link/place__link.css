@@ -1,0 +1,20 @@
+/* link */
+.place__link {
+  max-width: fit-content;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height, or 122% */
+  text-decoration-line: underline;
+  color: #ffffff;
+}
+/* Прозрачность при наведении */
+.place__link:hover {
+  opacity: 0.8;
+}
+@media screen and (max-width: 767px) {
+  .place__link {
+    padding-inline-start: 16px;
+  }
+}

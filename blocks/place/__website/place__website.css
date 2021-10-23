@@ -1,0 +1,6 @@
+/*website*/
+/* ячейка url и link */
+.place__website {
+  grid-area: place__website;
+  align-self: end;
+}

@@ -1,0 +1,30 @@
+/* блок с изображениями gap растояние между карточек */
+.photo-grid {
+  max-width: 100%;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+  grid-template-rows: repeat(auto-fit);
+  gap: 16px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (max-width: 1279px) {
+  .photo-grid {
+    gap: 14px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .photo-grid {
+    gap: 16px 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .photo-grid {
+    gap: 12px;
+  }
+}

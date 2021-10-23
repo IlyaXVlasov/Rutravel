@@ -1,0 +1,18 @@
+/* блок фото-карточек calc калькулятор */
+.photo-card {
+  max-width: calc(1280px - 96px);
+  width: calc(100% - 96px);
+  padding: 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .photo-card {
+    width: calc(100% - 48px);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .photo-card {
+    width: calc(100% - 32px);
+  }
+}

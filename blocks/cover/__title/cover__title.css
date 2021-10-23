@@ -1,0 +1,22 @@
+/* Заголовок */
+.cover__title {
+  max-width: 560px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  text-align: center;
+  color: #ffffff;
+  padding: 0;
+  margin: 0px 0px 32px 0px;
+  text-rendering: auto;
+}
+
+@media screen and (max-width: 767px) {
+  .cover__title {
+    max-width: 288px;
+    font-size: 32px;
+    line-height: 35px;
+    margin-bottom: 16px;
+  }
+}

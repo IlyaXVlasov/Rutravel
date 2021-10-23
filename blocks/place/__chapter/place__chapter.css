@@ -1,0 +1,10 @@
+/* параграфы */
+.place__chapter {
+  grid-area: place__chapter;
+}
+
+@media screen and (max-width: 767px) {
+  .place__chapter {
+    margin: 0px 16px;
+  }
+}

@@ -1,0 +1,4 @@
+/* отступ Ru */
+.header__lang:nth-child(1) {
+  margin-right: 18px;
+}

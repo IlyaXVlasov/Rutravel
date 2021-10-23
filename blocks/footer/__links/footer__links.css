@@ -1,0 +1,15 @@
+/* элемент li */
+.footer__links {
+  margin: 0px 18px 0px 0px;
+  padding: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__links {
+    display: block;
+    margin: 0px 0px 32px 0px;
+  }
+  .footer__links:last-child {
+    margin-bottom: 48px;
+  }
+}

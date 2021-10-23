@@ -1,0 +1,12 @@
+.header__listic {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 18px 0px 6px 0px;
+}
+
+@media screen and (max-width: 767px) {
+  .header__listic {
+    margin: 14px 0px 8px 0px;
+  }
+}

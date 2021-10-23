@@ -1,0 +1,13 @@
+/* список display: flex контейнер*/
+.footer__listok {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__listok {
+    flex-direction: column;
+  }
+}

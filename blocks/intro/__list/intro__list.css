@@ -1,0 +1,13 @@
+/*list-style: none уберает декор*/
+.intro__list {
+  max-width: 690px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  list-style: none;
+  text-align: start;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
